@@ -138,12 +138,6 @@ CREATE TABLE `tourist` (
 INSERT INTO `tourist` (`Fname`, `Lname`, `age`, `gender`, `email`, `nationality`) VALUES
 ();
 
-drop table tourist;
-
-
-drop table visit;
-
-drop table visit;
 
 CREATE TABLE `visit` (
   `day_of_arrival` date DEFAULT NULL,
